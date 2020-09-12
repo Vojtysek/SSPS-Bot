@@ -18,8 +18,8 @@ bot.on('message', message=>{
                 const info = new Discord.MessageEmbed()
                     .setTitle("301 s.r.o")
                     .setColor(0x1E90FF)
-                    .addField("Máte zájem o semináře od 301 s.r.o?", value="301 s.r.o je učebna, kde se učí a prograjují videohry či aplikace a Virtuální Realita!")
-                    .addField('Pokud ano, poprosím vás dát na tuto zprávu reakci, Děkuji!', value="Poprosím neodepisovat na tuto anketu či spamovat tento kanál.")
+                    .addField("Máte zájem o semináře od 301 s.r.o?", value="301 s.r.o je učebna, ve které se učí programování videoher, aplikací a virtuální reality!")
+                    .addField('Pokud zájem máte, poprosím vás dát na tuto zprávu reakci, děkuji!', value="Poprosím neodepisovat na tuto anketu či spamovat tento kanál.")
                 message.channel.send(info);
             break;
         }
